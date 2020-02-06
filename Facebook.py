@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 # Step 1) Open Google Chrome
 chrome_options = Options()
 chrome_options.add_argument("--headless")
-driver = webdriver.Chrome(chrome_options=chrome_options, executable_path="C:\Workspace\PyCharm\Development\Selenium\drivers\chromedriver.exe")
+driver = webdriver.Chrome(chrome_options=chrome_options, executable_path="C:\Workspace\PyCharm\Development\Selenium\Selenium-git\drivers\chromedriver.exe")
 # Step 2) Navigate to Facebook
 driver.get("http://www.facebook.com")
 # Step 3) Search & Enter the Email or Phone field & Enter Password
