@@ -18,7 +18,7 @@ username = driver.find_element_by_id("email")
 password = driver.find_element_by_id("pass")
 submit = driver.find_element_by_id("loginbutton")
 username.send_keys("gokulsen@hotmail.com")
-password.send_keys("fACEBOOK2019$")
+password.send_keys("")
 # Step 4) Click Login
 submit.click()
 wait = WebDriverWait(driver, 5)
